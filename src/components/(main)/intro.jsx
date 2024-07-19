@@ -40,8 +40,9 @@ function Intro() {
                     <p className="text-sm font-medium tracking-widest sm:text-lg">PRESENTS</p>
                     <h1 className="pt-5 text-5xl font-bold tracking-widest sm:text-6xl md:text-7xl 2xl:text-8xl">HACK</h1>
                     <h1 className="pb-5 text-5xl font-bold tracking-widest sm:text-6xl md:text-7xl 2xl:text-8xl">WITH DELHI</h1>
-                    <p className="text-sm font-medium tracking-wide sm:text-lg">Delhi's Biggest Hackthon,</p>
-                    <p className="text-sm font-medium tracking-wide sm:text-lg">"Cultivating Innovation, Harvesting Tomorrow"</p>
+                    <p className="text-sm font-medium tracking-wide sm:text-lg">Delhi&apos;s Biggest Hackathon,</p>
+                    <p className="text-sm font-medium tracking-wide sm:text-lg">&quot;Cultivating Innovation, Harvesting Tomorrow&quot;</p>
+
                 </div>
                 <Link href={"https://hackwithindia.devfolio.co"} target="_blank" className="hidden px-10 py-4 font-semibold text-black lg:block bg-amber-500 rounded-tr-2xl rounded-bl-2xl">Coming Soon</Link>
             </div>

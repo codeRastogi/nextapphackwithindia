@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gradient-start: #6C1F93;
+    --gradient-middle: #360498;
+    --gradient-end: #00CCFF;
+}
+
+::-webkit-scrollbar {
+    width: 0%;
+}

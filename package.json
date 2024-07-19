@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.17.0",
     "@radix-ui/react-toast": "^1.2.1",
     "@studio-freight/react-lenis": "^0.0.47",
+    "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "hamburger-react": "^2.5.1",
     "lucide-react": "^0.408.0",

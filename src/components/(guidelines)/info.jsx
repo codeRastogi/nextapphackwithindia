@@ -133,14 +133,12 @@ function Info() {
             </div>
             <div className="w-full space-y-10 max-w-7xl">
                 {InfoData.map((data, index) => (
-                    <div className="flex flex-col items-start gap-4">
-                        <h1 key={index} className="text-xl font-semibold">{data.title}</h1>
+                    <div className="flex flex-col items-start gap-4" key={index}>
+                        <h1 className="text-xl font-semibold">{data.title}</h1>
                         <ul className="space-y-5">
-                            {
-                                data.desc.map((subData, subIndex) => (
-                                    <li className="list-disc list-inside" key={subIndex}>{subData.subDesc}</li>
-                                ))
-                            }
+                            {data.desc.map((subData, subIndex) => (
+                                <li className="list-disc list-inside" key={subIndex}>{subData.subDesc}</li>
+                            ))}
                         </ul>
                     </div>
                 ))}
